@@ -1,6 +1,9 @@
 ---
 title: Home
 ---
+
+Why is index broke??
+
 # Game Documentation Hub
 
 Welcome to the **Game Documentation Hub**, your central resource for all information related to the development of the game. This hub includes detailed breakdowns of the game's design, mechanics, codebase, and workflows in Unreal Engine 5.

@@ -35,8 +35,8 @@ theme:
         name: Switch to dark mode
 
   
-repo_url: https://github.com/RebeccaSharkey/CRPG
-repo_name: RebeccaSharkey/CRPG
+repo_url: https://rebeccasharkey.github.io/CRPG-Documentation/
+repo_name: RebeccaSharkey/CRPG-Documentation
 
 extra:
   generator: false

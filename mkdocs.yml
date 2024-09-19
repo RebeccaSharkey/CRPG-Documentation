@@ -1,0 +1,91 @@
+site_name: CRPG [NAME TBC]
+site_url: https://rebeccasharkey.github.io/CRPG-Documentation/
+
+theme:
+  name: material
+  language: en
+
+  features:  
+  - toc.integrate
+
+  - navigation.tabs
+  - navigation.top
+  - navigation.indexes
+  - navigation.prune
+
+  - content.code.copy
+  - content.code.select
+  - content.code.annotate
+
+  palette: 
+  # Dark Mode
+    - scheme: slate
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+    # Light Mode
+    - scheme: default
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+  
+repo_url: https://github.com/RebeccaSharkey/CRPG
+repo_name: RebeccaSharkey/CRPG
+
+extra:
+  generator: false
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/RebeccaSharkey
+      name: GitHub Repo
+
+copyright: Copyright &copy; 2024 Spxcebxr Games.
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Home: index.md
+  - Game Design Document:
+      - 'Game Overview': 0. Game Design/0. Games Design Document/1. Game Overview.md
+      - 'Core Concept and Vision': 0. Game Design/0. Games Design Document/2. Core Concept and Vision.md
+      - 'Key Features': 0. Game Design/0. Games Design Document/3. Key Features.md
+      - 'Gameplay Mechanics': 0. Game Design/0. Games Design Document/4. Gameplay Mechanics.md
+      - 'Classes and Subclasses': 0. Game Design/0. Games Design Document/5. Classes and Subclasses.md
+      - 'Combat and Abilities': 0. Game Design/0. Games Design Document/6. Combat and Abilities.md
+      - 'Enemy Design and Corruption Mechanic': 0. Game Design/0. Games Design Document/7. Enemy Design and Corruption Mechanic.md
+      - 'Player Companions and Party System': 0. Game Design/0. Games Design Document/8. Player Companions and Party System.md
+      - 'Quest and Story Progression': 0. Game Design/0. Games Design Document/9. Quest and Story Progression.md
+      - 'World Design and Exploration': 0. Game Design/0. Games Design Document/10. World Design and Exploration.md
+  - Further Design Documentation:
+      - 'Further Design Documentation Hub': 0. Game Design/1. Further Design Information/0. Further Design Documentation Hub.md
+      - 'Classes':
+        - 'Classes Overview': 0. Game Design/1. Further Design Information/Classes/Classes.md
+  - Code Documentation:
+      - 'Code Documentation Hub': 1. Code Documentation/Code Documentation Hub.md
+  - Engine Workflow Documentation:
+      - 'Engine Workflows Documentation Hub': 2. Engine Workflows/Engine Workflows Documentation Hub.md

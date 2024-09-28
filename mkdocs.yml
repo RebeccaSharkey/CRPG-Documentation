@@ -85,6 +85,8 @@ nav:
       - 'Further Design Documentation Hub': 0. Game Design/1. Further Design Information/0. Further Design Documentation Hub.md
       - 'Classes':
         - 'Classes Overview': 0. Game Design/1. Further Design Information/Classes/Classes.md
+      - 'The Enigma':
+        - 'The Eningma': 0. Game Design/1. Further Design Information/The Enigma.md
   - Code Documentation:
       - 'Code Documentation Hub': 1. Code Documentation/Code Documentation Hub.md
   - Engine Workflow Documentation:
